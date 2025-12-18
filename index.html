@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Hữu Đoàn❤️Vân Anh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-buttons">
+    <button id="musicToggle" class="circle-btn music-off" aria-label="Bật/Tắt nhạc"></button>
+    <button id="scrollTopBtn" class="circle-btn hidden" aria-label="Cuộn lên đầu trang"></button>
+  </div>
+
+  <!-- MUSIC -->
+  <audio id="bgm" loop preload="none">
+    <source src="assets/music/beautifulinwhite.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- OPENING -->
+  <div class="opening-overlay" id="opening" aria-hidden="false">
+    <div class="doors" aria-label="Mở thiệp">
+      <div class="door left" id="doorL"></div>
+      <div class="door right" id="doorR"></div>
+    </div>
+    <div class="invite-title" id="inviteTitle">Save the Date</div>
+    <div class="hearts" id="hearts"></div>
+  </div>
+
+  <main class="page">
+    <!-- HERO -->
+    <header class="section" id="heroSec">
+      <div class="hero" id="hero" role="img" aria-label="Ảnh Trọng & Hiên"></div>
+    </header>
+
+    <section class="hero-info">
+      <div class="couplename-section">
+        <img src="assets/images/typo-removebg-preview.png" alt="Couple Name" class="couplename fade-in-up">
+      </div>
+      <div class="wedding-date">
+        <div class="side left">
+          <span>Thứ Bảy</span>
+          <span>9:00</span>
+        </div>
+        <div class="center">27</div>
+        <div class="side right">
+          <span>Tháng 12</span>
+          <span>2025</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAMILY -->
+    <section class="section" id="story">
+      <div class="family-card">
+        <div class="family-side left">
+          <h3>Nhà Trai</h3>
+          <p>Trần Hữu Măng</p>
+          <p>Trần Thị Ninh</p>
+        </div>
+        <div class="family-side right">
+          <h3>Nhà Gái</h3>
+          <p>Bùi Đình Tuấn</p>
+          <p>Trần Thị Vừa</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Invite message -->
+    <section class="invite-message">
+      <p>Thân mời quý vị đến dự bữa tiệc thân mật mừng lễ thành hôn cùng hai gia đình chúng tôi</p>
+      <p>Hữu Đoàn  &  Vân Anh</p>
+      <p>Vào lúc 09 giờ 00 phút | Thứ Bảy</p>
+      <p>27.12.2025</p>
+      <p>(Tức ngày 08 tháng 11 năm Ất Tỵ)</p>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="section" id="event">
+            <h2>Tư gia nhà trai</h2>
+      <div class="grid">
+        <article class="card-grid">
+          <div class="body">
+            <p>Địa chỉ trước sáp nhập</p>
+            <p>Trung Nghĩa, Tp Hưng Yên, Hưng Yên</p>
+            <a href="https://maps.app.goo.gl/HvwL72zWdH4PsAxdA" target="_blank" rel="noopener" class="map-btn">Xem bản đồ</a>
+          </div>
+          <div class="map-thumb">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3732.8696590150025!2d106.08147003433359!3d20.67488111804219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQwJzM5LjgiTiAxMDbCsDA0JzU5LjIiRQ!5e0!3m2!1svi!2s!4v1766037354709!5m2!1svi!2s"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </article>
+      </div>
+      
+      
+      <h2>Tư gia nhà gái</h2>
+      <div class="grid">
+        <article class="card-grid">
+          <div class="body">
+            <p>Địa chỉ trước sáp nhập</p>
+            <p>Thôn Thống Nhất, Thủ Sỹ, Tiên Lữ, Hưng Yên</p>
+            <a href="https://maps.app.goo.gl/SjaqX4rK1Qxd6mwbA" target="_blank" rel="noopener" class="map-btn">Xem bản đồ</a>
+          </div>
+          <div class="map-thumb">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1109.9637288055872!2d106.09823265737117!3d20.65093441367315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDM5JzAzLjMiTiAxMDbCsDA1JzU2LjIiRQ!5e0!3m2!1svi!2s!4v1766034556449!5m2!1svi!2s" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </article>
+      </div>
+
+
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <h2>Album ảnh cưới</h2>
+      <div class="carousel-wrap owl-carousel" aria-label="Ảnh nổi bật">
+        <a class="item" href="assets/images/1.jpg" data-lightbox="album"><img src="assets/images/1.jpg" alt="" loading="lazy"></a>
+        <a class="item" href="assets/images/2.jpg" data-lightbox="album"><img src="assets/images/2.jpg" alt="" loading="lazy"></a>
+        <a class="item" href="assets/images/10.jpg" data-lightbox="album"><img src="assets/images/10.jpg" alt="" loading="lazy"></a>
+        <a class="item" href="assets/images/4.jpg" data-lightbox="album"><img src="assets/images/4.jpg" alt="" loading="lazy"></a>
+        <a class="item" href="assets/images/5.jpg" data-lightbox="album"><img src="assets/images/5.jpg" alt="" loading="lazy"></a>
+        <a class="item" href="assets/images/6.jpg" data-lightbox="album"><img src="assets/images/6.jpg" alt="" loading="lazy"></a>
+      </div>
+
+      <div class="album" aria-live="polite">
+        <a class="photo tall" href="assets/images/1.jpg" data-lightbox="album"><img src="assets/images/1.jpg" alt="" loading="lazy"></a>
+        <div class="photo wide-group">
+          <a class="photo wide" href="assets/images/2.jpg" data-lightbox="album"><img src="assets/images/2.jpg" alt="" loading="lazy"></a>
+          <a class="photo wide" href="assets/images/10.jpg" data-lightbox="album"><img src="assets/images/10.jpg" alt="" loading="lazy"></a>
+        </div>
+        <a class="photo" href="assets/images/4.jpg" data-lightbox="album"><img src="assets/images/4.jpg" alt="" loading="lazy"></a>
+        <a class="photo" href="assets/images/5.jpg" data-lightbox="album"><img src="assets/images/5.jpg" alt="" loading="lazy"></a>
+      </div>
+    </section>
+
+    <!-- COUPLE NAME-->
+    <section class="couplename-section">
+      <img src="assets/images/typo-removebg-preview.png" alt="Couple Name" class="couplename fade-in-up">
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section" id="timeline">
+      <h2>Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="time">08:00 Đón khách</div>
+          <div class="content"><img src="assets/icons/flowers.png" alt="Đón khách" loading="lazy"></div>
+        </div>
+        <div class="timeline-item right">
+          <div class="time">09:00 Ăn tiệc</div>
+          <div class="content"><img src="assets/icons/eat.png" alt="Ăn tiệc" loading="lazy"></div>
+        </div>
+        <div class="timeline-item left">
+          <div class="time">11:00 Đón dâu</div>
+          <div class="content"><img src="assets/icons/wedding.png" alt="Đón dâu" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Invite message-->
+    <section class="invite-message">
+      <p>Thật vui nếu bạn góp mặt tại bữa tiệc mừng hạnh phúc của chúng tôi</p>
+      <p>và cùng lưu giữ những khoảnh khắc ý nghĩa.</p>
+    </section>
+
+    <!-- CALENDAR -->
+    <section class="section" id="calendarSec">
+      <div class="calendar">
+        <h2>Tháng 12 Năm 2025</h2>
+        <div class="calendar-grid" role="grid">
+           <div class="day-label">T2</div>
+  <div class="day-label">T3</div>
+  <div class="day-label">T4</div>
+  <div class="day-label">T5</div>
+  <div class="day-label">T6</div>
+  <div class="day-label">T7</div>
+  <div class="day-label">CN</div>
+
+  <div class="day">1</div>
+  <div class="day">2</div>
+  <div class="day">3</div>
+  <div class="day">4</div>
+  <div class="day">5</div>
+  <div class="day">6</div>
+  <div class="day">7</div>
+
+  <div class="day">8</div>
+  <div class="day">9</div>
+  <div class="day">10</div>
+  <div class="day">11</div>
+  <div class="day">12</div>
+  <div class="day">13</div>
+  <div class="day">14</div>
+
+  <div class="day">15</div>
+  <div class="day">16</div>
+  <div class="day">17</div>
+  <div class="day">18</div>
+  <div class="day">19</div>
+  <div class="day">20</div>
+  <div class="day">21</div>
+
+  <div class="day">22</div>
+  <div class="day">23</div>
+  <div class="day">24</div>
+  <div class="day">25</div>
+  <div class="day">26</div>
+
+  <div class="day special" aria-label="Ngày cưới 27/12/2025">
+    <span class="heart">❤️</span>27
+  </div>
+
+  <div class="day">28</div>
+
+  <div class="day">29</div>
+  <div class="day">30</div>
+  <div class="day">31</div>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="section" id="countdownSec">
+      <h2 class="muted" style="margin-top:1rem">Đếm ngược thời gian</h2>
+      <div id="countdown" class="countdown"></div>
+    </section>
+
+    <!-- WEDDING POEM -->
+    <section class="wedding-poem">
+      <img src="assets/icons/rings.png" alt="" class="center-icon">
+      <p class="line left">Một ngày để nhớ trọn đời,</p>
+      <p class="line right">Chúng mình chung bước, gọi mời yêu thương.</p>
+      <p class="line left">Cảm ơn vì đã đến cùng,</p>
+      <p class="line right">Chung vui hạnh phúc — kết vòng phu thê.</p>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section" id="rsvp">
+      <h2>Sổ lưu bút</h2>
+      <form id="rsvpForm" class="card" style="text-align:center">
+        <input type="text" id="name" placeholder="Tên của bạn" required style="width:100%;padding:0.7rem;border:1px solid #f3c2d2;border-radius:10px;margin-bottom:0.6rem" />
+        <textarea id="message" placeholder="Lời chúc" rows="3" style="width:100%;padding:0.7rem;border:1px solid #f3c2d2;border-radius:10px"></textarea>
+        <div style="margin-top:0.75rem"><button type="submit" class="btn">Gửi lời chúc</button></div>
+        <div class="wish-container">
+          <div class="grid" id="messages" aria-live="polite" style="margin-top:1rem"></div>
+        </div>
+      </form>
+    </section>
+
+ 
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-bg"></div>
+      <div class="footer-content">
+        <h2 class="footer-title">Thank you!</h2>
+        <p class="footer-sub">Rất mong được đón tiếp bạn trong</p>
+        <p class="footer-sub">ngày lễ thành hôn của chúng mình</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
